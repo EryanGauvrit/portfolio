@@ -1,22 +1,33 @@
 header {
-    // width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $colour-four;
     padding: 10px 70px;
+    @media (min-width: $phoneScreenSize) {
+        padding: 20px 90px;
+    }
     & .logo img {
         width: 150px;
+        @media (min-width: $phoneScreenSize) {
+            width: 230px;
+        }
     }
     & nav {
         display: flex;
         gap : 20px;
         font-size: $phoneFontSizeTitle;
         align-items: center;
+        @media (min-width: $phoneScreenSize) {
+            font-size: $desktopFontSizeTitle;
+        }
         & a {
             letter-spacing: 2px;
             color: $colour-two;
             transition: 0.3s;
+            @media (min-width: $phoneScreenSize) {
+                letter-spacing: 3px;
+            }
         }
         & a:hover {
             color: $colour-three;
@@ -29,6 +40,10 @@ header {
             height: 7px;
             background-color: $colour-two;
             border-radius: 50%;
+            @media (min-width: $phoneScreenSize) {
+                width: 8px;
+                height: 8px;
+            }
         }
     }
 }

@@ -4,15 +4,16 @@ html {
 
 body {
     font-family: $policeTxt, $policeDefault;    
+    background-color: $colour-four;
 }
 
-main, header, .banner-about {
-    // margin-left: 20px;
-    // margin-right: 20px;
-    // @media (min-width: $phoneScreenSize) {
-    //     margin-left: 50px;
-    //     margin-right: 50px;    
-    // }
+main, header {
+    margin-left: 20px;
+    margin-right: 20px;
+    @media (min-width: $phoneScreenSize) {
+        margin-left: 50px;
+        margin-right: 50px;    
+    }
     @media (min-width: 1240px) {
         max-width: 1240px;
         margin: auto;
