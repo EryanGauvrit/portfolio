@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Futura PT Medium';
+    src: url('../polices/Futura\ PT\ Medium.ttf');
+}
+@font-face {
+    font-family: 'GOODDP__';
+    src: url('../polices/GOODDP__.TTF');
+}
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../polices/KaushanScript-Regular.ttf');
+}
+
+// Font-Family
+
+$policeTitles: 'KaushanScript-Regular';
+$policeLink: 'GOODDP__';
+$policeTxt: 'Futura PT Medium';
+$policeDefault: 'comic sans ms';
+
+// Colors 
+
+$colour-one: black;
+$colour-two: #99C7C7;
+$colour-three: white;
+$colour-four: #333333;
+
+// Screen Sizes
+
+$phoneScreenSize: 800px;
+
+// Font Sizes
+
+$phoneFontSizeTxt: 15px;
+$desktopFontSizeTxt: 21px;
+
+$phoneFontSizeTitle: 18px;
+$desktopFontSizeTitle: 24px;
