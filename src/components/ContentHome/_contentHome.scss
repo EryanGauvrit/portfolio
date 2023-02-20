@@ -1,0 +1,47 @@
+.home-content {
+    background-color: $colour-three;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    & article {
+        width: 70%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: $policeTxt;
+        font-size: $phoneFontSizeTxt;
+        @media (min-width: $phoneScreenSize) {
+            font-size: $desktopFontSizeTxt;  
+            gap: 20px;
+        }
+        & h2 {
+            font-size: $phoneFontSizeTitle;
+            font-family: $policeTitles;
+            letter-spacing: 2px;
+            @media (min-width: $phoneScreenSize) {
+                font-size: $desktopFontSizeTitle;   
+            }
+        }
+        & p {
+            line-height: 23px;           
+            @media (min-width: $phoneScreenSize) {
+                line-height: 27px;  
+            } 
+        }
+        & .link-home-content{
+            align-self: flex-end;            
+        }
+        & .link-home-content a{
+            color: $colour-two;
+            transition: .2s;
+        }
+        & .link-home-content a:hover{
+            color: $colour-four;
+            text-decoration: underline;
+            transition: .2s;
+        }
+    }
+}
