@@ -1,8 +1,8 @@
 function Profil() {
     return (
-        <div>
-            Profil
-        </div>
+        <main>
+            <h1>Mon profil</h1>
+        </main>
     )
 }
 

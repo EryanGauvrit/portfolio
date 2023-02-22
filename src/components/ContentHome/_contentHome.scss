@@ -32,14 +32,17 @@
             } 
         }
         & .link-home-content{
-            align-self: flex-end;            
+            align-self: flex-end;         
+            padding: 10px;
+            background-color: $colour-two;   
+            border-radius: 10px;
         }
         & .link-home-content a{
-            color: $colour-two;
+            color: $colour-four;
             transition: .2s;
         }
         & .link-home-content a:hover{
-            color: $colour-four;
+            color: $colour-three;
             text-decoration: underline;
             transition: .2s;
         }

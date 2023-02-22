@@ -1,0 +1,131 @@
+[
+    {
+        "id":"formOC01",
+        "title":"Booki",
+        "cover":"",
+        "pictures":[],
+        "summary": "1er projet de la formation, fait uniquement en HTML/CSS",
+        "description":"Conception d'un site vitrine pour de la location de biens de voyage. Développement de la partie intégration en HTML/CSS en suivant srcupulesement bien la maquette.",
+        "date":"22/08/2022",
+        "duration":"3 semaines",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "HTML",
+            "CSS",
+            "Intégration de maquette"
+        ]
+    },
+    {
+        "id":"formOC02",
+        "title":"Ohmyfood",
+        "cover":"",
+        "pictures":[],
+        "summary":"Développement d'un site type \"Uber eat\" pour une clientelle plus aisée",
+        "description":"Réalisation du front d'un site vitrine pour afficher un menu et améliorer l'expérience utilisateur avec quelques animations CSS",
+        "date":"14/09/2022",
+        "duration":"3 semaines",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "HTML",
+            "CSS",
+            "Intégration de maquette",
+            "Sass",
+            "Concéption d'animations"
+        ]
+    },
+    {
+        "id":"formOC03",
+        "title":"La Panthère",
+        "cover":"",
+        "pictures":[],
+        "summary":"Optimisation d'une site web d'une entreprise de design",
+        "description":"Optimisation avec le référencement naturel, corrections apportées au niveau de la structure des pages HTML et au niveaux de l'accessibilité. Réduction du chargement des pages. Pour enfin réussir à avoir une bonne amélioration de l'optimisation du SEO dans sa globalité.",
+        "date":"28/09/2022",
+        "duration":"2 semaines",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "Optimisation SEO",
+            "Accessibilité",
+            "Amélioration de performance global d'un site web"
+        ]
+    },
+    {
+        "id":"formOC04",
+        "title":"Kanap",
+        "cover":"",
+        "pictures":[],
+        "summary":"Réalisation d'un site e-commerce de vente de canapés",
+        "description":"Conception de la partie front en se concentrant sur l'aspect dynamique avec JavaScript. Utilisation de requête afin d'afficher les articles de ventes, enregistrer et passer la commande client avec choix de couleur et de quantité, et informations du client.",
+        "date":"04/11/2022",
+        "duration":"1 mois",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "JavaScript",
+            "Requêtes vers une API",
+            "Utilisation du localStorage",
+            "Gestion des erreurs"
+        ]
+    },
+    {
+        "id":"formOC05",
+        "title":"Piiquante",
+        "cover":"",
+        "pictures":[],
+        "summary":"Conception d'un site permettant d'afficher sa/ses sauce(s) préférée(s)",
+        "description":"Création de la partie backend du site : gestion des comptes utilisateurs (inscription et connection) puis possibilité de traité les entrées utilisateurs pour afficher, modifier et supprimer une sauce, donc utlisation d'une base de données. Ajout de la fonctionnalité like/dislike.",
+        "date":"21/11/2022",
+        "duration":"3 semaines",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "NoSQL",
+            "Sécuriser l'application"
+        ]
+    },
+    {
+        "id":"formOC06",
+        "title":"Kasa",
+        "cover":"",
+        "pictures":[],
+        "summary":"Réalisation de la partie front d'un site de location de biens immobiliers",
+        "description":"Utilisation de la bibliothèque JavaScript React.js, permettant de séparer le projet en différents composants réutilisables. Respect de l'intégration de la maquette au millimètre près",
+        "date":"04/02/2023",
+        "duration":"3 semaines",
+        "client":"OpenClassrooms",
+        "address":"En ligne",
+        "skills":[
+            "React.js",
+            "HTML",
+            "CSS",
+            "Sass",
+            "Intégration de maquette",
+            "Organisation de l'espace de travail"
+        ]
+    },
+    {
+        "id":"cliProjRE",
+        "title":"Richesse d'émotions",
+        "cover":"",
+        "pictures":[],
+        "summary":"Création d'un site vitrine dans le domaine du développement personnel",
+        "description":"Réalisation d'un site vitrine de A à Z dans le domaine du développement personnel pour un particulier, sous React.js",
+        "date":"11/02/2023",
+        "duration":"1 semaines",
+        "client":"Particulier",
+        "address":"En ligne",
+        "skills":[
+            "React.js",
+            "HTML",
+            "CSS",
+            "Sass",
+            "Exigeance client"
+        ]
+    }
+]

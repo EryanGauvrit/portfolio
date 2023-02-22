@@ -4,10 +4,10 @@ html {
 
 body {
     font-family: $policeTxt, $policeDefault;    
-    background-color: $colour-four;
+    background-color: #696969;
 }
 
-main, header {
+main {
     margin-left: 20px;
     margin-right: 20px;
     @media (min-width: $phoneScreenSize) {
