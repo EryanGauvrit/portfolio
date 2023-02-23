@@ -5,6 +5,7 @@ import './style/normalize.css';
 import './style/main.scss';
 import Header from './components/Header';
 import Error from './components/Error';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Profil from './pages/Profil';
 import Projects from './pages/Projects';
@@ -33,6 +34,7 @@ root.render(
           element={<Error />}
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
 
   </React.StrictMode>

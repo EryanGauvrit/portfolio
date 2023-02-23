@@ -1,4 +1,4 @@
-import { Form, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import errorPicture from "../../assets/picture-error.jpg"
 
 function Error() {

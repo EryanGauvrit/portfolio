@@ -40,15 +40,16 @@ header {
             scale: 1.2;
             transition: 0.3s;
         }
-        & .nav-point {
-            width: 7px;
-            height: 7px;
-            background-color: $colour-two;
-            border-radius: 50%;
-            @media (min-width: $phoneScreenSize) {
-                width: 8px;
-                height: 8px;
-            }
-        }
+    }
+}
+
+.nav-point {
+    width: 7px;
+    height: 7px;
+    background-color: $colour-two;
+    border-radius: 50%;
+    @media (min-width: $phoneScreenSize) {
+        width: 8px;
+        height: 8px;
     }
 }
