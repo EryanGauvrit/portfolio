@@ -17,15 +17,21 @@
         padding: 10px 15px;
         border-radius: 30px;
         cursor: pointer;
+        transition: .2s;
+    }
+    & .collapse-title:hover {
+        color: $colour-two;
+        transition: .2s;
     }
     & .collapse-content {
         position: relative;
-        top: -10px;
+        top: -15px;
         background-color: $colour-two;
         font-size: $phoneFontSizeTxt;
-        width: 90%;
-        padding: 20px 30px;
+        width: 92%;
+        padding: 50px 40px;
         border-radius: 10px;
+        color: $colour-one;
         & ul li {
             @media (min-width: $phoneScreenSize) {
                 font-size: $desktopFontSizeTxt;
@@ -58,6 +64,9 @@
 }
 
 .active {
+    & .collapse-title {
+        color: $colour-two;
+    }
     & .collapse-content {
         transform-origin: top;
         transform: scaleY(1);

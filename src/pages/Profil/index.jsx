@@ -1,5 +1,6 @@
 import React from "react";
 import Collapse from "../../components/Collapse";
+import Download from "../../components/Download";
 
 function Profil() {
     return (
@@ -80,6 +81,9 @@ function Profil() {
             <section className="form-bloc">
                 <h2>Formation "Développeur Web"</h2>
             </section>
+
+            <Download />
+
         </main>
     )
 }

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import pdf from '../../downloads/cv_eryan_gauvrit.pdf';
 
 function Footer() {
     return (
@@ -13,7 +14,7 @@ function Footer() {
             <ul className='internal-link'>
                 <li><Link to="/">Accueil</Link></li>
                 <li><div className='nav-point'></div></li>
-                <li><Link to="/profil">Mon cv</Link></li>
+                <li><a href={pdf} title='CV Eryan Gauvrit' download >Mon cv</a></li>
             </ul>
             <p>© 2023 EryanGauvrit - Portefolio. All rights reserved</p>
         </footer>
