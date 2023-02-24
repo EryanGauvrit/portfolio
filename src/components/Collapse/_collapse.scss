@@ -1,0 +1,66 @@
+.collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .collapse-title {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $colour-five;
+        font-size: $phoneFontSizeTitle;
+        font-family: $policeTitles;
+        letter-spacing: 1px;
+        color: $colour-three;
+        padding: 10px 15px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    & .collapse-content {
+        position: relative;
+        top: -10px;
+        background-color: $colour-two;
+        font-size: $phoneFontSizeTxt;
+        width: 90%;
+        padding: 20px 30px;
+        border-radius: 10px;
+        & ul li {
+            @media (min-width: $phoneScreenSize) {
+                font-size: $desktopFontSizeTxt;
+            }
+        }
+        & p a {
+            color: $colour-four;
+            transition: .2s;
+        }
+        & p a:hover {
+            text-decoration: underline;
+            color: $colour-three;
+            transition: .2s;
+        }
+    }
+}
+
+.false {
+    height: 45px;
+    & .collapse-title {
+        & i {
+            rotate: (-180deg);
+        }
+    }
+    & .collapse-content {
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: transform .7s cubic-bezier(.32,0,.07,1);
+    }
+}
+
+.active {
+    & .collapse-content {
+        transform-origin: top;
+        transform: scaleY(1);
+        transition: transform 1s cubic-bezier(.32,0,.07,1);
+    }
+}

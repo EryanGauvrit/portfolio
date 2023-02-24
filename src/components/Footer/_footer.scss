@@ -45,5 +45,8 @@ footer {
     & p {
         color: $colour-three;
         text-align: center;
+        @media (min-width: $phoneScreenSize) {
+            font-size: $phoneFontSizeTxt;
+        }
     }
 }
