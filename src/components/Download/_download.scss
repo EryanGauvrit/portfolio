@@ -1,8 +1,11 @@
 .profil-main .download-bloc {
-    width: 150px;
+    width: 170px;
+    height: 370px;
     border-radius: 70px;
+    gap: 30px;
     @media (min-width: $phoneScreenSize) {
-        width: 350px;
+        width: 300px;
+        height: 460px;
     }
     & .qrcode-download {
         width: 200px;
@@ -11,17 +14,25 @@
         border-radius: 20px;
         background-color: $colour-two;
         @media (min-width: $phoneScreenSize) {
+            border-radius: 40px;
             width: 250px;
             height: 250px;
-            padding: 20px;
+            padding: 15px;
         }
     }
     & a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
         font-size: $phoneFontSizeTxt;
         color: $colour-four;
         transition: .2s;
         @media (min-width: $phoneScreenSize) {
             font-size: $desktopFontSizeTxt;
+            gap: 10px;
+        }
+        & p {
+            font-family: $policeLink;
         }
     }
     & a:hover {

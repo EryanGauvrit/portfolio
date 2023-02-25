@@ -1,6 +1,6 @@
 import QRCode from "react-qr-code";
 
-function SocialLink({ name, link }) {
+function SocialLink({ name, link, logo, icon }) {
 
     let txtLink = '';
     let target = '';
@@ -20,7 +20,9 @@ function SocialLink({ name, link }) {
         <div className="card-style">
             <div className="social-link-card">
                 <a href={link} target={target} rel={rel}>
+                    {logo}
                     <QRCode value={link} className="qrcode-social-link" />
+                    {icon}
                     <p>{txtLink}</p>
                 </a>
             </div>

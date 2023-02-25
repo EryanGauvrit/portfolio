@@ -92,14 +92,20 @@ function Profil() {
                 <SocialLink
                     name='Linkedin'
                     link='https://www.linkedin.com/in/eryan-gauvrit/'
+                    logo={<i className="fa-brands fa-linkedin"></i>}
+                    icon={<i className="icon-params fa-solid fa-arrow-up-right-from-square"></i>}
                 />
                 <SocialLink
                     name='Github'
                     link='https://github.com/EryanGauvrit'
+                    logo={<i className="fa-brands fa-github"></i>}
+                    icon={<i className="icon-params fa-solid fa-arrow-up-right-from-square"></i>}
                 />
                 <SocialLink
                     name='mail'
                     link='mailto:eryan.gauvrit@gmail.com'
+                    logo={<i className="fa-solid fa-envelope"></i>}
+                    icon={<i className="icon-params fa-solid fa-paper-plane"></i>}
                 />
             </div>
 
