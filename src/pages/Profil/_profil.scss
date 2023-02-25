@@ -49,4 +49,38 @@
             }
         }
     }
+    & .sectionAndPicture {
+        @media (min-width: $phoneScreenSize) {
+            display: flex;    
+            gap: 15px;         
+        }
+        & aside img {
+            display: none;
+            height: 550px;  
+            overflow: hidden;
+            padding: 3px;
+            background-color: $colour-two;
+            border-radius: 10px;
+            @media (min-width: $phoneScreenSize) {
+                display: block;
+                border-radius: 10px;
+            }
+        }        
+    }
+    & .download-style {
+        width: 100%;
+        padding: 30px 0;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        background-image: url('../../assets/pictures/img-annecy-jour.jpg');
+        background-position: center;
+        background-size: cover;
+        background-color: #f5f5f565;
+        background-blend-mode: lighten;
+        @media (min-width: $phoneScreenSize) {
+            padding: 50px 0;
+        }
+    }
 }
+
