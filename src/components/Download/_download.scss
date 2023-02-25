@@ -1,0 +1,33 @@
+.profil-main .download-bloc {
+    width: 150px;
+    border-radius: 70px;
+    @media (min-width: $phoneScreenSize) {
+        width: 350px;
+    }
+    & .qrcode-download {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: $colour-two;
+        @media (min-width: $phoneScreenSize) {
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+        }
+    }
+    & a {
+        font-size: $phoneFontSizeTxt;
+        color: $colour-four;
+        transition: .2s;
+        @media (min-width: $phoneScreenSize) {
+            font-size: $desktopFontSizeTxt;
+        }
+    }
+    & a:hover {
+        scale: 1.2;
+        color: $colour-two;
+        text-decoration: underline;
+        transition: .2s;
+    }
+}

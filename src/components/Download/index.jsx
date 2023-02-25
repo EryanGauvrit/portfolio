@@ -5,7 +5,7 @@ function Download() {
 
     return (
         <section className="download-bloc">
-            <QRCode value={pdf} className="qrcode" />
+            <QRCode value={pdf} className="qrcode-download" />
             <a href={pdf} title='CV Eryan Gauvrit' target="_blank" rel='noreferrer' >Visualiser le cv au format PDF</a>
             <a href={pdf} title='CV Eryan Gauvrit' download >Telecharger directement le cv</a>
         </section>

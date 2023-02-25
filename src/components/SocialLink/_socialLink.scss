@@ -1,0 +1,50 @@
+.socialLink-bloc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    background-color: $colour-five;
+    gap: 30px;
+    & .card-style {
+        padding: 3px;
+        background-color: $colour-four;
+        border-radius: 70px;
+        transition: .7s;
+        & .social-link-card a{
+            height: 240px;
+            width: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: 20px;
+            background-color: $colour-two;
+            padding: 20px 10px;
+            border-radius: 70px;
+            & .qrcode-social-link {
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                background-color: $colour-three;
+                border-radius: 10px;
+            }
+            & p {
+                color: $colour-three;
+            }
+        }
+    }
+    & .card-style:hover {
+        scale: 1.2;
+        transition: .5s;
+        .social-link-card a {
+            
+            & p {
+                color: $colour-four;
+                text-decoration: underline;
+                scale: 1.1;
+                transition: .5s;
+            }
+        }
+    }
+}
