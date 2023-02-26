@@ -14,7 +14,12 @@ function Footer() {
             <ul className='internal-link'>
                 <li><Link to="/">Accueil</Link></li>
                 <li><div className='nav-point'></div></li>
-                <li><a href={pdf} title='CV Eryan Gauvrit' download >Mon cv</a></li>
+                <li>
+                    <a href={pdf} title='CV Eryan Gauvrit' download >
+                        <p>Mon cv</p>
+                        <i className="dl-cv-footer fa-solid fa-file-arrow-down"></i>
+                    </a>
+                </li>
             </ul>
             <p>© 2023 EryanGauvrit - Portefolio. All rights reserved</p>
         </footer>

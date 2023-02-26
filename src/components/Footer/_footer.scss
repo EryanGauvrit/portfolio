@@ -27,6 +27,9 @@ footer {
             gap: 30px;
         }
         & li a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
             color: $colour-two;
             transition: .2s;
             & i {
@@ -35,12 +38,29 @@ footer {
                     font-size: $desktopFontSizeTitle;
                 }
             }
+            & .dl-cv-footer {
+                font-size: $phoneFontSizeTxt;
+                @media (min-width: $phoneScreenSize) {
+                    font-size: $desktopFontSizeTxt;
+                }
+            }
+            & p {
+                color: $colour-two;
+                transition: .2s;
+                @media (min-width: $phoneScreenSize) {
+                    font-size: $desktopFontSizeTxt;
+                }
+            }
         }
     }
     & ul li a:hover {
         transition: .2s;
         color: $colour-three;
         text-decoration: underline;
+        & p {
+            color: $colour-three;
+            transition: .2s;
+        }
     }
     & p {
         color: $colour-three;
