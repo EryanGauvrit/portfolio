@@ -12,7 +12,7 @@ function Footer() {
                 <li><a href='mailto:eryan.gauvrit@gmail.com'><i className="fa-solid fa-envelope"></i></a></li>
             </ul>
             <ul className='internal-link'>
-                <li><Link to="/">Accueil</Link></li>
+                <li><Link to="/"><p>Accueil</p></Link></li>
                 <li><div className='nav-point'></div></li>
                 <li>
                     <a href={pdf} title='CV Eryan Gauvrit' download >

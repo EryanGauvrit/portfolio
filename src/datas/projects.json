@@ -2,10 +2,10 @@
     {
         "id":"formOC01",
         "title":"Booki",
-        "cover":"./pictures-projects/formOC01/formOC01-cover",
+        "cover":"https://drive.google.com/uc?id=1rVeZQjQibyTr770fY0jfF1ovPBNaKcp5",
         "pictures":[
-            "./pictures-projects/formOC01/formOC01-desktop",
-            "./pictures-projects/formOC01/formOC01-phone"
+            "https://drive.google.com/uc?id=1onPegxeFRUnRTkmzqX758eDxctJXWe4K",
+            "https://drive.google.com/uc?id=1cLX8l6EMOkoY74O_qny8G6UzOiSaDdgz"
         ],
         "summary": "1er projet de la formation, fait uniquement en HTML/CSS",
         "description":"Conception d'un site vitrine pour de la location de biens de voyage. Développement de la partie intégration en HTML/CSS en suivant srcupulesement bien la maquette.",
@@ -23,10 +23,10 @@
     {
         "id":"formOC02",
         "title":"Ohmyfood",
-        "cover":"./pictures-projects/formOC02/formOC02-cover",
+        "cover":"https://drive.google.com/uc?id=1d9k51QfjzIQDsh77mu4X-E-zDqrP3u5D",
         "pictures":[
-            "./pictures-projects/formOC02/formOC02-desktop",
-            "./pictures-projects/formOC02/formOC02-phone"
+            "https://drive.google.com/uc?id=1Ktqh2NwWLZQWXSlOp9za-3kEl5BfGdLB",
+            "https://drive.google.com/uc?id=1C--NFVArDFhi6kQ84c7r8fnlacK6jbAG"
         ],
         "summary":"Développement d'un site type \"Uber eat\" pour une clientelle plus aisée",
         "description":"Réalisation du front d'un site vitrine pour afficher un menu et améliorer l'expérience utilisateur avec quelques animations CSS",
@@ -46,10 +46,10 @@
     {
         "id":"formOC03",
         "title":"La Panthère",
-        "cover":"./pictures-projects/formOC03/formOC03-cover",
+        "cover":"https://drive.google.com/uc?id=1RNIDfdDGB8gObDh53x3BdhWjIVh29EeH",
         "pictures":[
-            "./pictures-projects/formOC03/formOC03-desktop",
-            "./pictures-projects/formOC03/formOC03-phone"
+            "https://drive.google.com/uc?id=1u-y8ez-kGjEXdvmDXvExqjuedh0JxELV",
+            "https://drive.google.com/uc?id=1Pg90AkJiBu-wL_oEMY-xJeWfqDNQntNE"
         ],
         "summary":"Optimisation d'une site web d'une entreprise de design",
         "description":"Optimisation avec le référencement naturel, corrections apportées au niveau de la structure des pages HTML et au niveaux de l'accessibilité. Réduction du chargement des pages. Pour enfin réussir à avoir une bonne amélioration de l'optimisation du SEO dans sa globalité.",
@@ -67,10 +67,11 @@
     {
         "id":"formOC04",
         "title":"Kanap",
-        "cover":"./pictures-projects/formOC04/formOC04-cover",
+        "cover":"https://drive.google.com/uc?id=1-ooqBAHA2luvNawX0Puh0FPccsgx_zBU",
         "pictures":[
-            "./pictures-projects/formOC04/formOC04-desktop",
-            "./pictures-projects/formOC04/formOC04-phone"
+            "https://drive.google.com/uc?id=1iyNhO-gNitZcFYpKwaFyCexF_D66l9yj",
+            "https://drive.google.com/uc?id=1-ZWNt0QUU-TjwzrICkxKFtlrUy4NuiES",
+            "https://drive.google.com/uc?id=1YsapCqfs4_Tz5RcUZUO8csyiPO300aoL"
         ],
         "summary":"Réalisation d'un site e-commerce de vente de canapés",
         "description":"Conception de la partie front en se concentrant sur l'aspect dynamique avec JavaScript. Utilisation de requête afin d'afficher les articles de ventes, enregistrer et passer la commande client avec choix de couleur et de quantité, et informations du client.",
@@ -89,10 +90,11 @@
     {
         "id":"formOC05",
         "title":"Piiquante",
-        "cover":"./pictures-projects/formOC05/formOC05-cover",
+        "cover":"https://drive.google.com/uc?id=1pDOnfMWj7fS11Q2blfn-gw2NQ0KhNu1P",
         "pictures":[
-            "./pictures-projects/formOC05/formOC05-desktop",
-            "./pictures-projects/formOC05/formOC05-phone"
+            "https://drive.google.com/uc?id=1jK9_3Pxuc538z2DUh7SUSf4QE9marW-V",
+            "https://drive.google.com/uc?id=1z3a785z_F_02v8FE_XJcaKpG1Mvco4Q5",
+            "https://drive.google.com/uc?id=1PH3ODXOhLjMMlW7RP5gTQNzJ-V7rhx0V"
         ],
         "summary":"Conception d'un site permettant d'afficher sa/ses sauce(s) préférée(s)",
         "description":"Création de la partie backend du site : gestion des comptes utilisateurs (inscription et connection) puis possibilité de traité les entrées utilisateurs pour afficher, modifier et supprimer une sauce, donc utlisation d'une base de données. Ajout de la fonctionnalité like/dislike.",
@@ -112,10 +114,10 @@
     {
         "id":"formOC06",
         "title":"Kasa",
-        "cover":"./pictures-projects/formOC06/formOC06-cover",
+        "cover":"https://drive.google.com/uc?id=1jfhKbM7SRN7PMRirma0U1WANLfgwEac1",
         "pictures":[
-            "./pictures-projects/formOC06/formOC06-desktop",
-            "./pictures-projects/formOC06/formOC06-phone"
+            "https://drive.google.com/uc?id=1cwvsH2vW2b7MDlRWP8leMMJtv8Pw6U5V",
+            "https://drive.google.com/uc?id=1CH0LWs0octtC3yktguVPxGtzZG5rFKGA"
         ],
         "summary":"Réalisation de la partie front d'un site de location de biens immobiliers",
         "description":"Utilisation de la bibliothèque JavaScript React.js, permettant de séparer le projet en différents composants réutilisables. Respect de l'intégration de la maquette au millimètre près",
@@ -136,10 +138,10 @@
     {
         "id":"cliProjRE",
         "title":"Richesse d'émotions",
-        "cover":"./pictures-projects/cliProjRE/cliProjRE-cover",
+        "cover":"https://drive.google.com/uc?id=1osoB3l7iL8MhXs4vSW1XDOCTsizt-7u_",
         "pictures":[
-            "./pictures-projects/cliProjRE/cliProjRE-desktop",
-            "./pictures-projects/cliProjRE/cliProjRE-phone"
+            "https://drive.google.com/uc?id=1CH-sxybMqRfxPSWqJD3WK_jMY1XLxrc5",
+            "https://drive.google.com/uc?id=150hpOWiFA9_tRyzpAD65u4XYSmFg5M4s"
         ],
         "summary":"Création d'un site vitrine dans le domaine du développement personnel",
         "description":"Réalisation d'un site vitrine de A à Z dans le domaine du développement personnel pour un particulier, sous React.js",

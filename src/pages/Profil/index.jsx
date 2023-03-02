@@ -3,11 +3,15 @@ import Collapse from "../../components/Collapse";
 import Download from "../../components/Download";
 import SocialLink from "../../components/SocialLink";
 import pictureHor from "../../assets/pictures/img-chien.jpg";
+import ChangeTitlePage from "../../components/ChangeTitlePage";
 
 function Profil() {
     return (
         <React.Fragment>
             <main className="profil-main">
+                <ChangeTitlePage
+                    titlePage='Portfolio - Profil'
+                />
                 <h1>Je raconte ma (courte) vie ...</h1>
                 <div className="sectionAndPicture">
                     <section className="bio-bloc">

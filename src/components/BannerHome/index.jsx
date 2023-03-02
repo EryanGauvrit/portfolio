@@ -2,7 +2,7 @@
 function BannerHome() {
     return (
         <div className="banner-home">
-            <h1>Portefolio</h1>
+            <h1>Portfolio</h1>
         </div>
     )
 }

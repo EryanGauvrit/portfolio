@@ -1,0 +1,60 @@
+@media (min-width: $phoneScreenSize) {
+    .card-project-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 70px 40px;
+        & .card-project {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 350px;
+            height: 420px;
+            overflow: hidden;
+            background-color: $colour-three;
+            padding: 10px;
+            border-radius: 70px;
+            border: solid 7px $colour-two;
+            transition: .5s;
+            & h2 {
+                font-family: $policeTitles;
+                font-size: $desktopFontSizeTitle;
+            }
+            & img {
+                height: 360px;
+                border-radius: 15px;
+                }
+            & .summary-bloc {
+                border-radius: 15px;
+                position: fixed;
+                bottom: -160px;
+                width: 350px;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateY(0);
+                transition: transform 0.7s ease-out;
+                background-color: $colour-two;
+                & p {
+                    font-family: $policeTxt;
+                    line-height: 25px;
+                    text-align: center;
+                    width: 80%;
+                }
+            }
+            &:hover {
+                scale:1.1;
+                border-color: $colour-four;
+                background-color: $colour-two;
+                transition: .5s;
+                & .summary-bloc { 
+                    transform: translateY(-150px);
+                    transition: transform 0.7s ease-out;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,10 +1,15 @@
 import BannerHome from "../../components/BannerHome";
 import ContentHome from "../../components/ContentHome";
 import { Link } from "react-router-dom";
+import ChangeTitlePage from "../../components/ChangeTitlePage";
 
 function Home() {
     return (
+
         <main className="main-home">
+            <ChangeTitlePage
+                titlePage='Portfolio'
+            />
             <BannerHome />
             <section className="home-content">
                 <ContentHome

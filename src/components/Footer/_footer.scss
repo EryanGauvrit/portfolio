@@ -56,10 +56,11 @@ footer {
     & ul li a:hover {
         transition: .2s;
         color: $colour-three;
-        text-decoration: underline;
+        
         & p {
             color: $colour-three;
             transition: .2s;
+            text-decoration: underline;
         }
     }
     & p {
