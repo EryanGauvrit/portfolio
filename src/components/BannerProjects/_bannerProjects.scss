@@ -1,0 +1,30 @@
+.banner-projects {
+        margin: 30px 0;
+        background-image: url('../../assets/pictures/banner-projects.jpg');
+        background-position: center;
+        background-size: cover;
+        background-color: #B3B3B3;
+        background-blend-mode: darken;
+        height: 240px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: $phoneScreenSize) {
+            height: 320px;   
+            margin: 50px 0;
+        }
+    & h1 {
+        font-family: $policeTitles;
+        font-size: 30px;
+        color: $colour-three;
+        text-shadow: 2px 2px $colour-four;
+        letter-spacing: 6px;
+        font-weight: 600;
+        @media (min-width: $phoneScreenSize) {
+            font-size: 55px;
+            margin-right: 140px;
+            letter-spacing: 9px;
+     }
+    }
+}

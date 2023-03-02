@@ -1,3 +1,4 @@
+import BannerProjects from "../../components/BannerProjects";
 import CardsProjects from "../../components/CardsProjects";
 import ChangeTitlePage from "../../components/ChangeTitlePage";
 
@@ -7,7 +8,9 @@ function Projects() {
             <ChangeTitlePage
                 titlePage='Portfolio - Projets'
             />
-            <h1>Voici la liste de mes projets :</h1>
+            <BannerProjects
+                title='Voici la liste de mes projets :'
+            />
             <CardsProjects />
         </main>
     )
