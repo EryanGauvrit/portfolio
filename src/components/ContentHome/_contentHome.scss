@@ -21,8 +21,20 @@
             font-size: $phoneFontSizeTitle;
             font-family: $policeTitles;
             letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             @media (min-width: $phoneScreenSize) {
                 font-size: $desktopFontSizeTitle;   
+            }
+            & img {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                @media (min-width: $phoneScreenSize) {
+                    width: 120px;
+                    height: 120px 
+                }
             }
         }
         & p {
