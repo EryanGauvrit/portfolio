@@ -1,46 +1,89 @@
-@media (min-width: $phoneScreenSize) {
-    .card-project-list {
+.card-project-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    & .card-project {
         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        max-width: 500px;
+        width: 90%;
+        height: 330px;
+        border-radius: 15px;
+        padding: 5px 0;
+        background-color: $colour-two;
+        & h2 {
+            font-family: $policeTitles;
+            font-size: $phoneFontSizeTitle;
+            margin: 5px;
+        }
+        & .cover-bloc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            overflow: hidden;
+            width: 90%;
+            background-color: $colour-four;
+            height: 270px;
+            & img {
+                height: 250px;
+                border-radius: 15px;
+                }
+        }
+        & .summary-bloc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & p {
+                font-family: $policeTxt;
+                line-height: 20px;
+                text-align: center;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (min-width: $phoneScreenSize) {
+    .card-project-list {        
+        align-items:s;
+        flex-direction: initial;
         justify-content: center;
         flex-wrap: wrap;
         gap: 70px 40px;
         & .card-project {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
             width: 350px;
-            height: 420px;
-            overflow: hidden;
+            height: 420px;            
             background-color: $colour-three;
             padding: 10px;
             border-radius: 70px;
             border: solid 7px $colour-two;
             transition: .5s;
             & h2 {
-                font-family: $policeTitles;
                 font-size: $desktopFontSizeTitle;
             }
-            & img {
-                height: 360px;
-                border-radius: 15px;
-                }
+            & .cover-bloc {
+                width: auto;
+                & img {
+                    height: 360px;
+                    border-radius: 15px;
+                    }
+            }
             & .summary-bloc {
                 border-radius: 15px;
                 position: fixed;
                 bottom: -160px;
                 width: 350px;
-                height: 150px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                height: 150px;                
                 transform: translateY(0);
                 transition: transform 0.7s ease-out;
                 background-color: $colour-two;
                 & p {
-                    font-family: $policeTxt;
                     line-height: 25px;
-                    text-align: center;
                     width: 80%;
                 }
             }

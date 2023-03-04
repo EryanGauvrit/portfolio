@@ -9,7 +9,9 @@ function CardsProjects() {
                 projectsDatas.map((project) =>
                     <Link className="card-project" to={"/projects/" + project.id} key={project.id} >
                         <h2>{project.title}</h2>
-                        <img src={project.cover} alt={project.title} />
+                        <div className="cover-bloc">
+                            <img src={project.cover} alt={project.title} />
+                        </div>
                         <div className="summary-bloc">
                             <p>{project.summary}</p>
                         </div>

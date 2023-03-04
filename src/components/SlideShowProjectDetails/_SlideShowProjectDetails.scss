@@ -1,0 +1,58 @@
+.picture-gallery {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: $phoneScreenSize) {
+        margin-top: 20px;
+    }
+    & .current-picture-bloc-style {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 80%;
+        & .picture.active{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            padding: 10px;
+            max-width: 1000px;
+            background-color: $colour-four;
+            border-radius: 15px;
+            & .currentPicture-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                overflow: hidden;
+                height: 355px;
+                background-position: center;
+                object-fit: cover;  
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 15px;
+                @media (min-width: $phoneScreenSize) {
+                    background-size: auto;
+                    height: 515px;
+                }
+                & .activeChevron {
+                    opacity: 0.7;
+                    margin: 20px;
+                    color: $colour-two;
+                    font-size: 70px;
+                    cursor: pointer;
+                    @media (min-width: $phoneScreenSize) {
+                        font-size: 130px;
+                    }
+                }
+                & .notActiveChevron {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+}

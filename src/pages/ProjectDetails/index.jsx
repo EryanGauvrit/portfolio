@@ -1,8 +1,14 @@
+import React from "react";
+import SlideShowProjectDetails from "../../components/SlideShowProjectDetails";
+
 function ProjectDetails() {
     return (
-        <div>
-            ProjectDetails
-        </div>
+        <React.Fragment>
+            <SlideShowProjectDetails />
+            <main className="project-details-main">
+                Project details
+            </main>
+        </React.Fragment>
     )
 }
 
