@@ -1,12 +1,14 @@
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     background-color: $colour-four;
     padding: 10px 30px;
     gap: 10px;
     @media (min-width: $phoneScreenSize) {
         padding: 20px 90px;
+        justify-content: space-between;
+        flex-direction: row;
     }
     @media (min-width: 1240px) {
         justify-content: space-around;
