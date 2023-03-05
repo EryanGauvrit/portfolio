@@ -1,0 +1,102 @@
+.project-details-main {
+    background-color: $colour-three;
+    border-radius: 15px;
+    margin: 30px auto;
+    width: 90%;
+    padding: 30px 10px;
+    @media (min-width: $phoneScreenSize) {
+        margin: 50px auto;  
+        padding: 50px 20px;
+    }
+    & h1 {
+        font-family: $policeTitles;
+        font-size: $phoneFontSizeTitle;
+        color: $colour-one;
+        letter-spacing: 2px;    
+        @media (min-width: $phoneScreenSize) {
+            font-size: $desktopFontSizeTitle;
+            letter-spacing: 3px;
+        }    
+    }
+    & .project-details-datas {
+        margin: 20px 0;
+        padding: 30px 10px;
+        border-radius: 15px;
+        background-color: $colour-four;
+        font-size: $phoneFontSizeTxt;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        @media (min-width: $phoneScreenSize) {
+            margin: 30px 0;
+            padding: 40px 20px;
+            font-size: $desktopFontSizeTxt;
+            gap: 30px;
+        }    
+        & .project-info {
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            background-color: $colour-two;
+            padding: 10px;
+            border-radius: 15px;
+            @media (min-width: $phoneScreenSize) {
+                padding: 20px;
+            }    
+            & ul {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                @media (min-width: $phoneScreenSize) {
+                    gap: 10px;
+                }    
+            }
+            & .project-client {
+                align-items: flex-end;
+            }
+        }
+        & article {
+            color: $colour-three;
+            width: 80%;
+            font-size: $phoneFontSizeTxt;
+            @media (min-width: $phoneScreenSize) {
+                font-size: $desktopFontSizeTxt;
+            } 
+        }
+        & .project-skills {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            @media (min-width: $phoneScreenSize) {
+                margin: 40px 0;
+                gap: 30px;
+            }    
+            & p {
+                color: $colour-two;
+                font-family: $policeTitles;
+                letter-spacing: 1px;
+                @media (min-width: $phoneScreenSize) {
+                    letter-spacing: 2px;
+                }    
+            } 
+            & ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                @media (min-width: $phoneScreenSize) {
+                    gap: 20px;
+                }    
+                & li {
+                    padding: 5px 10px;
+                    background-color: $colour-two;
+                    border-radius: 40px;
+                    @media (min-width: $phoneScreenSize) {
+                        padding: 10px 20px;
+                    }    
+                }
+            }
+        }
+    }
+}
