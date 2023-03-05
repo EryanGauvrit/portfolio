@@ -17,16 +17,12 @@ function SocialLink({ name, link, logo, icon }) {
     };
 
     return (
-        <div className="card-style">
-            <div className="social-link-card">
-                <a href={link} target={target} rel={rel}>
-                    {logo}
-                    <QRCode value={link} className="qrcode-social-link" />
-                    {icon}
-                    <p>{txtLink}</p>
-                </a>
-            </div>
-        </div>
+        <a href={link} target={target} rel={rel} className="social-link-card">
+            {logo}
+            <QRCode value={link} className="qrcode-social-link" />
+            {icon}
+            <p>{txtLink}</p>
+        </a>
     )
 }
 
