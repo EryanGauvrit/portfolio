@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import projectsDatas from '../../datas/projects.json';
 import { Link } from "react-router-dom";
 import moment from "moment/moment";
@@ -21,25 +21,10 @@ function SlideShowRecentsProjects() {
 
     for (let i = 0; i <= 2; i++) {
         recentsProjects.push(projectsDatas[i]); // On ne retient que les 3 premiers dans un tableau
-        console.log(recentsProjects[i].cover);
     }
     console.log(recentsProjects);
 
     // On met en place la navigation entre les projets via un "Slide Show"
-
-    // const [project, setProject] = useState({
-    //     title: '',
-    //     summary: '',
-    //     cover: '',
-    //     id: ''
-    // });
-
-    // useEffect(() => {
-    //     recentsProjects.map((data) => {
-    //         setProject(data);
-    //         return null;
-    //     })
-    // })
 
     const recentsProjectsLength = recentsProjects.length;
     const [currentProject, setCurrentProject] = useState(0);

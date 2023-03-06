@@ -1,0 +1,55 @@
+.backToProjectsPage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    margin-left: 50px;
+    color: $colour-three;
+    & p {
+        font-size: $phoneFontSizeTxt;
+        letter-spacing: 2px;
+    }
+    & .four-square {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        & div {
+            display: flex;
+            gap: 2px;
+            & i {
+                font-size: 7px;
+            }
+        }
+    }
+}
+
+@media (min-width: $phoneScreenSize) {
+    .backToProjectsPage {
+        position: fixed;
+        top: 260px;
+        margin-left: 15px;
+        color: $colour-two;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: rgba($colour-four, 0.7);
+        transition: .3s;
+        & p {
+            font-size: $desktopFontSizeTxt;
+        }
+        & .four-square {
+            gap: 3px ;
+            & div {
+                gap: 3px;
+                & i {
+                    font-size: 10px;
+                }
+            }
+        }
+        &:hover {
+            scale: 1.1;
+            transition: .3s;
+            background-color: rgba($colour-four, 1);
+            color: $colour-three;
+        }
+    }
+}
