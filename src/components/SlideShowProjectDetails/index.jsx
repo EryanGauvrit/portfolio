@@ -35,8 +35,6 @@ function SlideShowProjectDetails() {
 
     /* Gestion des chevrons */
 
-
-
     let chevron = "activeChevron"; // par défault ils sont activés
 
     if (picturesLength === 1) {
@@ -49,9 +47,9 @@ function SlideShowProjectDetails() {
             {project.pictures.map((I, index) => {
 
                 return (
-                    <div className="current-picture-bloc-style">
+                    <div className="current-picture-bloc-style" key={index}>
                         <div
-                            className={index === currentPicture ? "picture active" : "picture"} key={index}
+                            className={index === currentPicture ? "picture active" : "picture"}
                         >
                             {index === currentPicture && (
                                 <div

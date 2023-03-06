@@ -3,6 +3,7 @@ import ContentHome from "../../components/ContentHome";
 import { Link } from "react-router-dom";
 import ChangeTitlePage from "../../components/ChangeTitlePage";
 import pp from "../../assets/PP.png";
+import SlideShowRecentsProjects from "../../components/SlideShowRecentsProjects";
 
 function Home() {
     return (
@@ -24,6 +25,7 @@ function Home() {
                     pp={<img src={pp} alt="Profil" />}
                 />
             </section>
+            <SlideShowRecentsProjects />
 
         </main>
     )
