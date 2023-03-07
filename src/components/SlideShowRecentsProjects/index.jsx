@@ -51,14 +51,15 @@ function SlideShowRecentsProjects() {
                                             backgroundImage: `url(${recentsProjects[index].cover})`
                                         }}
                                     >
-
-                                        <i className={"fa-solid fa-chevron-left "} onClick={prevProject}></i>
-                                        <div className="recent-project-info">
-                                            <h3>{recentsProjects[index].title}</h3>
-                                            <p>{recentsProjects[index].summary}</p>
-                                            <Link to={`/projects/${recentsProjects[index].id}`}>Aller sur la page de ce projet</Link>
+                                        <div className="currentProject-box-quote">
+                                            <i className={"fa-solid fa-chevron-left "} onClick={prevProject}></i>
+                                            <div className="recent-project-info">
+                                                <h3>{recentsProjects[index].title}</h3>
+                                                <p>{recentsProjects[index].summary}</p>
+                                                <Link to={`/projects/${recentsProjects[index].id}`}>Aller sur la page de ce projet</Link>
+                                            </div>
+                                            <i className={"fa-solid fa-chevron-right "} onClick={nextProject}></i>
                                         </div>
-                                        <i className={"fa-solid fa-chevron-right "} onClick={nextProject}></i>
                                     </div>
 
                                 )}

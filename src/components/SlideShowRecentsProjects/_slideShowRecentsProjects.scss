@@ -37,7 +37,6 @@
             & .currentProject-box {
                 display: flex;
                 align-items: flex-end;
-                justify-content: space-between;
                 height: 355px;
                 background-position: center;
                 object-fit: cover;  
@@ -47,54 +46,70 @@
                 @media (min-width: $phoneScreenSize) {
                     height: 430px;
                 }
-                & i {
-                    font-size: 50px;
-                    margin: 0 10px;
-                    opacity: 0.7;
-                    color: $colour-four;
-                    cursor: pointer;
-                    @media (min-width: $phoneScreenSize) {
-                        font-size: 90px;
-                    }
-                }
-                & .recent-project-info {
-                    position: relative;
-                    bottom: -20px;
+                & .currentProject-box-quote {
                     display: flex;
-                    flex-direction: column;
+                    justify-content: space-between;
                     align-items: center;
-                    gap: 5px;
                     background-color: rgba($colour-two, 0.75);
-                    padding: 10px;
-                    border-radius: 15px 15px 0 0;
                     @media (min-width: $phoneScreenSize) {
-                        bottom: -10px;
+                        transform: translateY(150px);
+                        transition: transform 0.7s ease-out;
                     }
-                    & h3 {
-                        font-family: $policeTitles;
-                        font-size: $phoneFontSizeTitle;
-                        color: $colour-three;
-                        letter-spacing: 2px;
-                        @media (min-width: $phoneScreenSize) {
-                            font-size: $desktopFontSizeTitle;
-                            letter-spacing: 3px;
-                        }
-                    }
-                    & p {
-                        font-size: $phoneFontSizeTxt;
-                        @media (min-width: $phoneScreenSize) {
-                            font-size: $desktopFontSizeTxt;
-                        }
-                    }
-                    & a {
-                        font-size: $phoneFontSizeTxt;
+                    & i {
+                        font-size: 50px;
+                        margin: 0 10px;
+                        opacity: 0.7;
                         color: $colour-four;
+                        cursor: pointer;
                         @media (min-width: $phoneScreenSize) {
-                            font-size: $desktopFontSizeTxt;
+                            font-size: 90px;
                         }
                     }
-                }
+                    & .recent-project-info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 5px;                        
+                        padding: 10px;
+                        border-radius: 15px 15px 0 0;
+                        & h3 {
+                            font-family: $policeTitles;
+                            font-size: $phoneFontSizeTitle;
+                            color: $colour-three;
+                            letter-spacing: 2px;
+                            @media (min-width: $phoneScreenSize) {
+                                font-size: $desktopFontSizeTitle;
+                                letter-spacing: 3px;
+                            }
+                        }
+                        & p {
+                            font-size: $phoneFontSizeTxt;
+                            @media (min-width: $phoneScreenSize) {
+                                font-size: $desktopFontSizeTxt;
+                            }
+                        }
+                        & a {
+                            font-size: $phoneFontSizeTxt;
+                            color: $colour-four;
+                            @media (min-width: $phoneScreenSize) {
+                                font-size: $desktopFontSizeTxt;
+                            }
+                        }
+                    }
+                }                
             }
         }
+    }
+}
+
+@media (min-width: $phoneScreenSize) {
+    .project.active:hover {
+        & .currentProject-box:hover{
+            & .currentProject-box-quote {
+                transform: translateY(0);
+                transition: transform 0.7s ease-out;
+                
+            }
+        }        
     }
 }
