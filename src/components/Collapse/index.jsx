@@ -1,5 +1,5 @@
 import { useState } from "react";
-const chevron = <i className="fa-solid fa-chevron-up"></i>;
+const chevron = <i className="fa-solid fa-chevron-up chevron-up"></i>;
 
 function Collapse({ title, content, icontitle }) {
 
