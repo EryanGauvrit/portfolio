@@ -16,71 +16,135 @@ function Profil() {
                 <div className="sectionAndPicture">
                     <section className="bio-bloc">
                         <h2>Biographie</h2>
-                        <p>Je m'appelle Eryan, et je vais vous raconter un peu mon parcours...</p>
+                        <p>Je m’appelle Eryan, et voici mon parcours…</p>
                         <Collapse
-                            title='Les débuts'
+                            title='Les prémices'
+                            icontitle={<i className="fa-solid fa-graduation-cap"></i>}
                             content={
                                 <React.Fragment>
-                                    <p>
-                                        J'ai commencé à m’intéresser au développement informatique en général à l'âge de 15/16 ans, donc fin des années collège. Comme tout adolescent, je jouais beaucoup au jeux vidéos, et j'ai commencé à me poser la question : "Comment est créé un jeu vidéo ?". <br />
-                                        C'est à partir de ce moment là que j'ai commencé à me renseigner et bidouiller quelques trucs dans mon coin (langage C puis C++). J'ai passé ma 2nd (1ère année de lycée) à écrire des petits bouts de codes et me faire des mini-jeux. J'avais donc deux grandes passions :
-                                    </p>
                                     <ul>
-                                        <li>L'informatique (jeux vidéo et développement) </li>
-                                        <li>Le sport (le football à cette période)</li>
+                                        <li>
+                                            <i className="fa-solid fa-laptop"></i>
+                                            <p>
+                                                Fan de jeux vidéo, tout est parti d’une simple question : « Comment sont-ils créés ? »
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-laptop-code"></i>
+                                            <p>
+                                                J’ai commencé à apprendre seul quelques notions : le langage C et C++, puis j’ai réalisé des mini jeux grâce au code.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-book"></i>
+                                            <p>
+                                                J’ai ensuite choisi de m’orienter vers un Bac STI2D (sciences technologiques de l’industrie et du développement durable), spécialité SIN (système informatique numérique) : j’ai ainsi pu étudier l’informatique et le développement.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <div className="icon-illustration-list">
+                                                <i className="fa-brands fa-html5"></i>
+                                                <i className="fa-brands fa-css3-alt"></i>
+                                            </div>
+                                            <p>
+                                                J’ai découvert par la suite le HTML/ CSS au sein du cursus, et j’ai petit à petit laissé émerger l'idée de faire du développement web mon métier, après quelques hésitations entre celui-ci et le développement de jeux vidéo.
+                                            </p>
+                                        </li>
                                     </ul>
-                                    <p>
-                                        A la fin de la seconde, je devais choisir une voie débouchant sur un BAC qui pourrait me plaire (n'étant pas vraiment à l'aise avec les études, je voulais quelques chose de court). J'ai trouvé l'orientation BAC STI2D (Sciences Technologiques de l’Industrie et du Développement Durable) spécialité SIN (Système Informatique Numérique), elle se rapprochait assez de ce que je voulais : étudier l'informatique et en particulier le développement.
-                                    </p>
                                 </React.Fragment>
                             }
                         />
                         <Collapse
-                            title='La période lycée'
+                            title='Passion sport'
+                            icontitle={<i className="fa-solid fa-person-running"></i>}
                             content={
                                 <React.Fragment>
-                                    <p>
-                                        Durant ces 2 années avant le BAC, nous avons vu diverses matières plus ou moins intéressantes selon mes goûts. C'est là que j'ai réellement découvert le développement web, simplement en HTML/CSS à l'époque (oui ça ne volait pas haut), et c'est donc lors de ces cours que je me suis passionné pour la conception d'un site web.
-                                    </p>
-                                    <p>
-                                        En parallèle, je m'étais renseigné sur les débouchés d'un développeur de jeux vidéos et voyant que cette voie était "sans issues" (beaucoup de demandes mais peu d'offre d'emploi, pour être surmené et pas suffisamment payé), l'idée de me concentrer sur le développement web a émergé.
-                                    </p>
-                                    <p>
-                                        Mais Tout cela a bien changé à partir de la terminale, où j'ai perdu beaucoup de motivation. En effet, l'idée de rester derrière un bureau toute la journée ne me convenait pas. Je voulais aussi me mettre réellement au sport, pas simplement faire mes 2 entraînements par semaine. Je voulais en faire plus. Je me suis donc orienté vers l'armée, qui était, selon moi, l'endroit idéal pour cela, en plus de l'esprit de cohésion qui me correspondait.
-                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i className="fa-solid fa-futbol"></i>
+                                            <p>
+                                                J’ai toujours été d’une nature sportive. Après de nombreuses années au sein d’une équipe de football, j’ai commencé la course à pied de manière sérieuse.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <div className="icon-illustration-list">
+                                                <i className="fa-solid fa-person-running"></i>
+                                                <i className="fa-solid fa-mountain"></i>
+                                            </div>
+                                            <p>
+                                                Je pratique aujourd’hui le trail et la course sur route, et participe à des compétitions depuis quelques années maintenant. L’entraînement fait partie intégrante de mes journées et mes objectifs se font de plus en plus exigeants.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-person-skiing"></i>
+                                            <p>
+                                                En parallèle, je passe les hivers sur les skis, que ce soit ceux de piste ou ceux de randonnée.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-mountain-sun"></i>
+                                            <p>
+                                                Quelque soit le sport pratiqué, la montagne est mon terrain de prédilection et j’en suis passionné.
+                                            </p>
+                                        </li>
+                                    </ul>
                                 </React.Fragment>
                             }
                         />
                         <Collapse
                             title='Expérience militaire'
+                            icontitle={<i className="fa-sharp fa-solid fa-person-military-rifle"></i>}
                             content={
                                 <React.Fragment>
-                                    <p>
-                                        J'ai obtenu mon BAC, puis à la fin des vacances je me suis engagé au 27e BCA d'Annecy pour commencer une nouvelle aventure. Durant ces 3 années, de septembre 2019 à novembre 2022, j'ai appris énormément, que se soit à l'armée avec le sport, le combat, le maniement des armes et j'en passe, ou simplement dans la vie de tous les jours, avec le savoir vivre en groupe et être le fait d'être soudé 24h/24, gérer son stress et s'adapter à toutes les situations, qu'on soit prêt à cela ou non.
-                                    </p>
-                                    <p>
-                                        J'ai finis mon contrat et n'ai pas prolongé car je m'y plaisait moins. En effet, il y avait un manque évident de sport (même si j'ai bien progressé, ce n'était toujours pas suffisant), l'esprit d'équipe était peu présent: chacun n'hésitait pas à marcher sur les autres afin d'avoir quelques responsabilités. Bref, l'ambiance devenait malsaine.
-                                    </p>
-                                    <p>
-                                        Je suis donc retourné vers ma première passion : le développement. Ayant grandi un peu, j'ai su maintenant que je voudrais me réorienter dans un domaine plus sérieux : le web (au lieu du jeu vidéo).
-                                        J'ai décidé de me lancer dans une formation en ligne : la formation "développeur web" chez <a href="https://openclassrooms.com/fr/" target="_blank" rel='noreferrer'>OpenClassrooms</a> qui était à mes frais.
-                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i className="fa-solid fa-bolt"></i>
+                                            <p>
+                                                Après le BAC, j’ai décidé de m’engager au sein du 27 ème Bataillon de chasseurs alpins d’Annecy. Je rêvais d’aventure et d’adrénaline.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-people-group"></i>
+                                            <p>
+                                                Là-bas, j’ai pu apprendre énormément de choses, que ce soit dans le sport, dans le combat ou dans le maniement d’armes. J’ai aussi appris à vivre en groupe soudé et en cohésion, à gérer mon stress et à être prêt à chaque seconde.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-hourglass-end"></i>
+                                            <p>
+                                                Mon expérience à duré trois ans, et elle me servira sûrement tout au long de ma vie.
+                                            </p>
+                                        </li>
+                                    </ul>
                                 </React.Fragment>
                             }
                         />
                         <Collapse
                             title='Reconversion'
+                            icontitle={<i className="fa-solid fa-code"></i>}
                             content={
                                 <React.Fragment>
-                                    <p>
-                                        La formation s'est très bien passée, avec la petite expérience que je m'étais faite, je connaissais un peu la logique qu'il fallait avoir : se débrouiller par soi-même et donc chercher la réponse seul.
-                                    </p>
-                                    <p>
-                                        Juste avant la fin, voyant que mes économies s'envolaient, j'ai décidé de chercher un travail le temps de finir la formation. J'ai trouvé un poste de vendeur dans un magasin d'article de sports et de montagne : Ekosport. J'y suis resté seulement 2 mois, constatant que je n'arrivais pas à suivre la formation et travailler à temps plein en période de fêtes. J'ai donc décidé de mettre un dernier coup de collier sur la formation dès l'instant où j'ai quitté cet emploi.
-                                    </p>
-                                    <p>
-                                        Deux semaines après, j'ai enfin terminé cette formation qui fût très intéressantes, surtout le fait d'apprendre tant de choses en ligne (situation particulière quand on n'en a jamais fait l'expérience) et sans spécialement énormément d'aide. Je vous présente le détail plus loin.
-                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i className="fa-solid fa-school"></i>
+                                            <p>
+                                                J’ai entamé une formation de développeur web chez <a href="https://openclassrooms.com/fr/" target="_blank" rel='noreferrer'>OpenClassrooms</a>, que j’ai rapidement su mener à bien grâce à mes notions antérieures. Je connaissais déjà la logique et l’état d’esprit à avoir : savoir être totalement autonome et chercher par soi-même.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-file-code"></i>
+                                            <p>
+                                                Durant cette formation, j’ai réalisé sept projets différents qui m’ont permis de perfectionner mes acquis et d’apprendre toujours plus de nouvelles notions. J’ai aussi créé moi-même d’autres projets afin de gagner en expérience.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i className="fa-solid fa-briefcase"></i>
+                                            <p>
+                                                A présent, je me sens totalement prêt à décrocher un emploi dans ce domaine pour lequel j’ai tant investi et qui me passionne toujours autant, si ce n’est plus, qu’à mes débuts.
+                                            </p>
+
+                                        </li>
+                                    </ul>
                                 </React.Fragment>
                             }
                         />
@@ -89,11 +153,6 @@ function Profil() {
                         <img src={pictureHor} alt="Illustration" />
                     </aside>
                 </div>
-
-
-                <section className="form-bloc">
-                    <h2>Formation "Développeur Web"</h2>
-                </section>
 
                 <div className="download-style">
                     <Download />

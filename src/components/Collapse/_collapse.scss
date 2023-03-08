@@ -18,6 +18,14 @@
         border-radius: 30px;
         cursor: pointer;
         transition: .2s;
+        & h3 {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            @media (min-width: $phoneScreenSize) {
+                gap: 10px;
+            }
+        }
     }
     & .collapse-title:hover {
         color: $colour-two;
@@ -28,13 +36,33 @@
         top: -15px;
         background-color: $colour-two;
         font-size: $phoneFontSizeTxt;
-        width: 92%;
+        width: 90%;
         padding: 50px 40px;
         border-radius: 10px;
         color: $colour-one;
-        & ul li {
-            @media (min-width: $phoneScreenSize) {
-                font-size: $desktopFontSizeTxt;
+        & ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+            & li {
+                display: flex;
+                align-items: baseline;
+                gap: 15px;
+                @media (min-width: $phoneScreenSize) {
+                    font-size: $desktopFontSizeTxt;
+                    gap: 20px;
+                }
+                & .icon-illustration-list {
+                    display: flex;
+                    margin-left: -15px;
+                    @media (min-width: $phoneScreenSize) {
+                        margin-left: -20px;
+                    }
+                }
+                & i {
+                    width: 15px;
+                }
             }
         }
         & p a {

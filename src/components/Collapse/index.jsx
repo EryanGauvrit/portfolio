@@ -1,7 +1,7 @@
 import { useState } from "react";
 const chevron = <i className="fa-solid fa-chevron-up"></i>;
 
-function Collapse({ title, content }) {
+function Collapse({ title, content, icontitle }) {
 
     const [isActive, setActive] = useState(false);
 
@@ -12,7 +12,7 @@ function Collapse({ title, content }) {
     return (
         <article className={`collapse ${isActive && "active"}`}>
             <div className="collapse-title" onClick={handleToggle}>
-                <h3>{title}</h3>
+                <h3>{icontitle}{title}</h3>
                 {chevron}
             </div>
             <div className="collapse-content">
