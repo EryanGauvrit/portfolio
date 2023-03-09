@@ -49,14 +49,12 @@
             padding: 10px;
             background-color: $colour-two;   
             border-radius: 10px;
-        }
-        & .link-home-content a{
             color: $colour-four;
             transition: .2s;
         }
-        & .link-home-content a:hover{
+        & .link-home-content:hover{
             color: $colour-three;
-            text-decoration: underline;
+            scale: 1.05;
             transition: .2s;
         }
     }

@@ -4,7 +4,7 @@ import QRCode from "react-qr-code";
 function Download() {
 
     return (
-        <section className="download-bloc">
+        <a href={pdf} title='CV Eryan Gauvrit' target="_blank" rel='noreferrer' className="download-bloc">
             <h2>Voici mon CV</h2>
             <QRCode value={pdf} className="qrcode-download" />
             <a href={pdf} title='CV Eryan Gauvrit' target="_blank" rel='noreferrer' >
@@ -15,7 +15,7 @@ function Download() {
                 <p>Telecharger directement le cv</p>
                 <i className="fa-solid fa-file-arrow-down"></i>
             </a>
-        </section>
+        </a>
     )
 }
 
