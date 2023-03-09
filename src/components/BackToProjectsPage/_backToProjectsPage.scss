@@ -26,7 +26,7 @@
 @media (min-width: $phoneScreenSize) {
     .backToProjectsPage {
         position: fixed;
-        top: 260px;
+        bottom: -5px;
         margin-left: 15px;
         color: $colour-two;
         padding: 5px 15px;
