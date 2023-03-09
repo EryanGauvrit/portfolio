@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px auto;
+    margin-right: auto;
+    margin-left: auto;
     gap: 30px;
     @media (min-width: $phoneScreenSize) {
         width: 80%;

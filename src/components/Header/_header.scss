@@ -1,20 +1,22 @@
 header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: $colour-four;
-    padding: 10px 30px;
-    gap: 10px;
-    @media (min-width: $phoneScreenSize) {
-        padding: 20px 90px;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    @media (min-width: 1240px) {
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 20px $colour-one;
+    @media (min-width: $phoneScreenSize) {        
+        height: 190px;        
+        padding: 10px 0;
         justify-content: space-around;
+        flex-direction: row;       
     }
     & .logo img {
-        width: 150px;
+        width: 120px;
         @media (min-width: $phoneScreenSize) {
             width: 230px;
         }
