@@ -15,10 +15,9 @@ function Profil() {
             <BackTop />
             <main className="profil-main">
 
-                <h1>Je raconte ma (courte) vie ...</h1>
                 <div className="sectionAndPicture">
                     <section className="bio-bloc">
-                        <h2>Biographie</h2>
+                        <h1>Biographie</h1>
                         <p>Je m’appelle Eryan, et voici mon parcours…</p>
                         <Collapse
                             title='Les prémices'

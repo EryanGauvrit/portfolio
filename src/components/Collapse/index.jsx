@@ -12,7 +12,7 @@ function Collapse({ title, content, icontitle }) {
     return (
         <article className={`collapse ${isActive && "active"}`}>
             <div className="collapse-title" onClick={handleToggle}>
-                <h3>{icontitle}{title}</h3>
+                <h2>{icontitle}{title}</h2>
                 {chevron}
             </div>
             <div className="collapse-content">

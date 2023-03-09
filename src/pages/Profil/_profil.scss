@@ -12,17 +12,6 @@
         margin-bottom: 50px;
         gap: 50px;
     }
-    & h1 {
-        width: 80%;
-        font-size: $phoneFontSizeTitle;
-        font-family: $policeTitles;
-        color: $colour-three;
-        letter-spacing: 3px;
-        @media (min-width: $phoneScreenSize) {            
-            font-size: $desktopFontSizeTitle;
-            letter-spacing: 5px;
-        }
-    }
     & section {
         background-color: $colour-three;
         padding: 30px 20px;
@@ -35,13 +24,16 @@
             padding: 30px 50px;
             gap: 35px;
         }
-        & h2 {
+        & h1 {
             font-size: $phoneFontSizeTitle;
             font-family: $policeTitles;
             letter-spacing: 2px;
+            align-self: flex-start;
+            margin-left: 40px;
             @media (min-width: $phoneScreenSize) {
                 font-size: $desktopFontSizeTitle;
                 letter-spacing: 3px;
+                margin-left: 60px;
             }
         }
         & p {
