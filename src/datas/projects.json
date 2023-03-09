@@ -2,11 +2,11 @@
     {
         "id":"formOC01",
         "title":"Booki",
-        "cover":"https://drive.google.com/uc?id=1rVeZQjQibyTr770fY0jfF1ovPBNaKcp5",
+        "cover":"https://drive.google.com/uc?id=1AXjUs2wNbhDYdfWPs_qlaE3_PQwgpDu_",
         "pictures":[
-            "https://drive.google.com/uc?id=1rVeZQjQibyTr770fY0jfF1ovPBNaKcp5",
-            "https://drive.google.com/uc?id=1onPegxeFRUnRTkmzqX758eDxctJXWe4K",
-            "https://drive.google.com/uc?id=1cLX8l6EMOkoY74O_qny8G6UzOiSaDdgz"
+            "https://drive.google.com/uc?id=1AXjUs2wNbhDYdfWPs_qlaE3_PQwgpDu_",
+            "https://drive.google.com/uc?id=1gAstreTHMLlr_nBaCSGuKhgKjmWY0iMy",
+            "https://drive.google.com/uc?id=1STkfOSR4x0bz-mS6C9AAzquG2AisIUJW"
         ],
         "summary": "1er projet de la formation, fait uniquement en HTML/CSS",
         "description":"Conception d'un site vitrine pour de la location de biens de voyage. Développement de la partie intégration en HTML/CSS en suivant srcupulesement bien la maquette.",
@@ -24,11 +24,11 @@
     {
         "id":"formOC02",
         "title":"Ohmyfood",
-        "cover":"https://drive.google.com/uc?id=1d9k51QfjzIQDsh77mu4X-E-zDqrP3u5D",
+        "cover":"https://drive.google.com/uc?id=1oUsy8YbC2aVQfBJwBRQnyrr8fUi9RxCk",
         "pictures":[
-            "https://drive.google.com/uc?id=1d9k51QfjzIQDsh77mu4X-E-zDqrP3u5D",
-            "https://drive.google.com/uc?id=1Ktqh2NwWLZQWXSlOp9za-3kEl5BfGdLB",
-            "https://drive.google.com/uc?id=1C--NFVArDFhi6kQ84c7r8fnlacK6jbAG"
+            "https://drive.google.com/uc?id=1oUsy8YbC2aVQfBJwBRQnyrr8fUi9RxCk",
+            "https://drive.google.com/uc?id=1mviqna6g08ErVf-EKhYHNF2lAZA47qZ3",
+            "https://drive.google.com/uc?id=1ZfITdDytnhi6KWYobetk-Kzph9RiWNrB"
         ],
         "summary":"Développement d'un site type \"Uber eat\" proposant un service culinaire haute gamme",
         "description":"Réalisation du front d'un site vitrine pour afficher un menu et améliorer l'expérience utilisateur avec quelques animations CSS",
@@ -48,11 +48,11 @@
     {
         "id":"formOC03",
         "title":"La Panthère",
-        "cover":"https://drive.google.com/uc?id=1RNIDfdDGB8gObDh53x3BdhWjIVh29EeH",
+        "cover":"https://drive.google.com/uc?id=1a4LyJgLXANENpliU7ze4E9iI0fN6F2DC",
         "pictures":[
-            "https://drive.google.com/uc?id=1RNIDfdDGB8gObDh53x3BdhWjIVh29EeH",
-            "https://drive.google.com/uc?id=1u-y8ez-kGjEXdvmDXvExqjuedh0JxELV",
-            "https://drive.google.com/uc?id=1Pg90AkJiBu-wL_oEMY-xJeWfqDNQntNE"
+            "https://drive.google.com/uc?id=1a4LyJgLXANENpliU7ze4E9iI0fN6F2DC",
+            "https://drive.google.com/uc?id=1e7YCfqnf7c5ZREGsETt4k5AM-OU-QTrD",
+            "https://drive.google.com/uc?id=15U6QpJKtNumwcCoQ1iBSETDyil5kLQEi"
         ],
         "summary":"Optimisation d'une site web d'une entreprise de design",
         "description":"Optimisation avec le référencement naturel, corrections apportées au niveau de la structure des pages HTML et au niveaux de l'accessibilité. Réduction du chargement des pages. Pour enfin réussir à avoir une bonne amélioration de l'optimisation du SEO dans sa globalité.",
@@ -70,12 +70,12 @@
     {
         "id":"formOC04",
         "title":"Kanap",
-        "cover":"https://drive.google.com/uc?id=1-ooqBAHA2luvNawX0Puh0FPccsgx_zBU",
+        "cover":"https://drive.google.com/uc?id=1nbw7SCxl2pVZxYymxbihWkcaMB1L1hYu",
         "pictures":[
-            "https://drive.google.com/uc?id=1-ooqBAHA2luvNawX0Puh0FPccsgx_zBU",
-            "https://drive.google.com/uc?id=1iyNhO-gNitZcFYpKwaFyCexF_D66l9yj",
-            "https://drive.google.com/uc?id=1-ZWNt0QUU-TjwzrICkxKFtlrUy4NuiES",
-            "https://drive.google.com/uc?id=1YsapCqfs4_Tz5RcUZUO8csyiPO300aoL"
+            "https://drive.google.com/uc?id=1nbw7SCxl2pVZxYymxbihWkcaMB1L1hYu",
+            "https://drive.google.com/uc?id=12mkTGiNpUT9wFjlQfDWmpp_YNyiBoM7q",
+            "https://drive.google.com/uc?id=1MdfLDi2YkzOylwnlO7haD23b8SJWDwkX",
+            "https://drive.google.com/uc?id=1trotGxHQkOqDxlrL6xDkLi9uANYsItj4"
         ],
         "summary":"Réalisation d'un site e-commerce de vente de canapés",
         "description":"Conception de la partie front en se concentrant sur l'aspect dynamique avec JavaScript. Utilisation de requête afin d'afficher les articles de ventes, enregistrer et passer la commande client avec choix de couleur et de quantité, et informations du client.",
@@ -94,12 +94,12 @@
     {
         "id":"formOC05",
         "title":"Piiquante",
-        "cover":"https://drive.google.com/uc?id=1pDOnfMWj7fS11Q2blfn-gw2NQ0KhNu1P",
+        "cover":"https://drive.google.com/uc?id=1OWk70ClJcxDlkUUofXKFP_34gNF2GHmF",
         "pictures":[
-            "https://drive.google.com/uc?id=1pDOnfMWj7fS11Q2blfn-gw2NQ0KhNu1P",
-            "https://drive.google.com/uc?id=1jK9_3Pxuc538z2DUh7SUSf4QE9marW-V",
-            "https://drive.google.com/uc?id=1z3a785z_F_02v8FE_XJcaKpG1Mvco4Q5",
-            "https://drive.google.com/uc?id=1PH3ODXOhLjMMlW7RP5gTQNzJ-V7rhx0V"
+            "https://drive.google.com/uc?id=1OWk70ClJcxDlkUUofXKFP_34gNF2GHmF",
+            "https://drive.google.com/uc?id=1BE8gImWU8_hU-DnjM5ySJUKPAkM0PULm",
+            "https://drive.google.com/uc?id=1nqcI4gMMVZLC_JYic06kcjEw5NkUjFIz",
+            "https://drive.google.com/uc?id=190QKpQcCl-NMmC6EEF6z_9Xt9yk5eysE"
         ],
         "summary":"Conception d'un site permettant d'enregistrer sa/ses sauce(s) préférée(s)",
         "description":"Création de la partie backend du site : gestion des comptes utilisateurs (inscription et connection) puis possibilité de traité les entrées utilisateurs pour afficher, modifier et supprimer une sauce, donc utlisation d'une base de données. Ajout de la fonctionnalité like/dislike.",
@@ -119,11 +119,11 @@
     {
         "id":"formOC06",
         "title":"Kasa",
-        "cover":"https://drive.google.com/uc?id=1jfhKbM7SRN7PMRirma0U1WANLfgwEac1",
+        "cover":"https://drive.google.com/uc?id=1tTfdoxI5T5K_YKaMMe0Zx-O5_FO6ELtV",
         "pictures":[
-            "https://drive.google.com/uc?id=1jfhKbM7SRN7PMRirma0U1WANLfgwEac1",
-            "https://drive.google.com/uc?id=1cwvsH2vW2b7MDlRWP8leMMJtv8Pw6U5V",
-            "https://drive.google.com/uc?id=1CH0LWs0octtC3yktguVPxGtzZG5rFKGA"
+            "https://drive.google.com/uc?id=1tTfdoxI5T5K_YKaMMe0Zx-O5_FO6ELtV",
+            "https://drive.google.com/uc?id=1LK3cPGcx2iWdm3fgIs3Yy5Xww8vkS4cC",
+            "https://drive.google.com/uc?id=1iEIjBll2wy2AeIpO6ZnOVswmDqcIY5kI"
         ],
         "summary":"Réalisation de la partie front d'un site de location de biens immobiliers",
         "description":"Utilisation de la bibliothèque JavaScript React.js, permettant de séparer le projet en différents composants réutilisables. Respect de l'intégration de la maquette au millimètre près",
@@ -144,11 +144,11 @@
     {
         "id":"cliProjRE",
         "title":"Richesse d'émotions",
-        "cover":"https://drive.google.com/uc?id=1osoB3l7iL8MhXs4vSW1XDOCTsizt-7u_",
+        "cover":"https://drive.google.com/uc?id=1JoRzS16kUHyG1AZwS6Mchzum6c4DiRZt",
         "pictures":[
-            "https://drive.google.com/uc?id=1osoB3l7iL8MhXs4vSW1XDOCTsizt-7u_",
-            "https://drive.google.com/uc?id=1CH-sxybMqRfxPSWqJD3WK_jMY1XLxrc5",
-            "https://drive.google.com/uc?id=150hpOWiFA9_tRyzpAD65u4XYSmFg5M4s"
+            "https://drive.google.com/uc?id=1JoRzS16kUHyG1AZwS6Mchzum6c4DiRZt",
+            "https://drive.google.com/uc?id=1OC2SUSalyrKNSP6072lwkGzY-A7crdwA",
+            "https://drive.google.com/uc?id=1IkOKJXhreWvMt4dBCdYocQOIOcEAStfS"
         ],
         "summary":"Création d'un site vitrine dans le domaine du développement personnel",
         "description":"Réalisation d'un site vitrine de A à Z dans le domaine du développement personnel pour un particulier, sous React.js",
