@@ -22,7 +22,6 @@ function SlideShowRecentsProjects() {
     for (let i = 0; i <= 2; i++) {
         recentsProjects.push(projectsDatas[i]); // On ne retient que les 3 premiers dans un tableau
     }
-    console.log(recentsProjects);
 
     // On met en place la navigation entre les projets via un "Slide Show"
 
