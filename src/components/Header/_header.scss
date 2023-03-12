@@ -10,7 +10,7 @@ header {
     padding-bottom: 10px;
     box-shadow: 5px 5px 20px $colour-one;
     @media (min-width: $phoneScreenSize) {        
-        height: 190px;        
+        height: 145px;        
         padding: 10px 0;
         justify-content: space-around;
         flex-direction: row;       
@@ -18,7 +18,7 @@ header {
     & .logo img {
         width: 120px;
         @media (min-width: $phoneScreenSize) {
-            width: 230px;
+            width: 190px;
         }
     }
     & nav {
@@ -29,6 +29,12 @@ header {
         flex-wrap: wrap;
         @media (min-width: $phoneScreenSize) {
             font-size: $desktopFontSizeTitle;
+            & a:hover {
+                color: $colour-three;
+                text-decoration: underline;
+                scale: 1.2;
+                transition: 0.3s;
+            }
         }
         & a {
             letter-spacing: 2px;
@@ -37,13 +43,7 @@ header {
             @media (min-width: $phoneScreenSize) {
                 letter-spacing: 3px;
             }
-        }
-        & a:hover {
-            color: $colour-three;
-            text-decoration: underline;
-            scale: 1.2;
-            transition: 0.3s;
-        }
+        }        
     }
 }
 
