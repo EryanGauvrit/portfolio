@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './style/normalize.css';
 import './style/main.scss';
 import Header from './components/Header';
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <HashRouter>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route exact path='/'
@@ -35,7 +35,7 @@ root.render(
         />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
 
   </React.StrictMode>
 );
