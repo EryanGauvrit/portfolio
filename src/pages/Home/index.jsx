@@ -22,7 +22,7 @@ function Home() {
                     title="Qui suis-je ?"
                     content="Je m'appelle Eryan Gauvrit et je suis le développeur que vous attendez : un junior en plein épanouissement devant les infinies possibilités qu'offre le développement web. Si vous êtes simplement curieux ou un confrère, peut-être que ce projet vous donnera des idées pour vos futures créations, du moins je l'espère."
                     link={<Link to='/profil' className="link-home-content" >Cliquez pour en savoir plus ...</Link>}
-                    pp={<img src={pp} alt="Profil" />}
+                    pp={<img src={pp} alt="Eryan Gauvrit" />}
                 />
             </section>
             <SlideShowRecentsProjects />

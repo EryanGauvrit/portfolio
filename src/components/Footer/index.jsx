@@ -21,7 +21,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <p>© 2023 EryanGauvrit - Portfolio. All rights reserved</p>
+            <p>© 2023 Eryan - Portfolio. All rights reserved</p>
         </footer>
     )
 }

@@ -89,7 +89,7 @@
             "Utilisation du localStorage",
             "Gestion des erreurs"
         ],
-        "link":"https://kanap-eryangauvrit.netlify.app"
+        "link":""
     },
     {
         "id":"formOC05",
@@ -114,7 +114,7 @@
             "NoSQL",
             "Sécuriser l'application"
         ],
-        "link":"https://piiquante-eryangauvrit.netlify.app"
+        "link":""
     },
     {
         "id":"formOC06",
@@ -139,7 +139,7 @@
             "Intégration de maquette",
             "Organisation de l'espace de travail"
         ],
-        "link":"https://eryangauvrit.github.io/Kasa/"
+        "link":""
     },
     {
         "id":"cliProjRE",
