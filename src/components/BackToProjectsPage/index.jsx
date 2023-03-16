@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function BackToProjectsPage() {
     return (
-        <Link to='/projects' className="backToProjectsPage">
+        <Link to='/projects' className="backToProjectsPage" onClick={"#backTop-anchor"}>
             <div className="four-square">
                 <div>
                     <i className="fa-solid fa-square"></i>
