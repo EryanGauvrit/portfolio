@@ -16,6 +16,7 @@ root.render(
   <React.StrictMode>
 
     <BrowserRouter>
+      <div id="backTop-anchor"></div>
       <Header />
       <Routes>
         <Route exact path='/'

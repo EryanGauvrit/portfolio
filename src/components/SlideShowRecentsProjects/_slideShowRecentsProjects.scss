@@ -53,7 +53,7 @@
                     background-color: rgba($colour-two, 0.75);
                     @media (min-width: $phoneScreenSize) {
                         transform: translateY(150px);
-                        transition: transform 0.7s ease-out;
+                        transition: transform 0.3s ease-out;
                     }
                     & i {
                         font-size: 50px;
@@ -122,7 +122,7 @@
         & .currentProject-box:hover{
             & .currentProject-box-quote {
                 transform: translateY(0);
-                transition: transform 0.7s ease-out;                
+                transition: transform 0.3s ease-out;                
             }
         }        
     }

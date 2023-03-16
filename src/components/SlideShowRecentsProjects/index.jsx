@@ -55,7 +55,7 @@ function SlideShowRecentsProjects() {
                                             <div className="recent-project-info">
                                                 <h3>{recentsProjects[index].title}</h3>
                                                 <p>{recentsProjects[index].summary}</p>
-                                                <Link to={`/projects/${recentsProjects[index].id}`}>Aller sur la page de ce projet</Link>
+                                                <Link to={`/projects/${recentsProjects[index].id}`} onClick={"#backTop-anchor"}>Aller sur la page de ce projet</Link>
                                             </div>
                                             <i className={"fa-solid fa-chevron-right "} onClick={nextProject}></i>
                                         </div>

@@ -46,6 +46,12 @@
                     cursor: pointer;
                     @media (min-width: $phoneScreenSize) {
                         font-size: 130px;
+                        transition: .2s;
+                        &:hover {
+                            scale: 1.05;
+                            opacity: 1;
+                            transition: .2s;
+                        }
                     }
                 }
                 & .notActiveChevron {

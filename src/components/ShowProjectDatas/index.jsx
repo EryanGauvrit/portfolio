@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import projectsDatas from '../../datas/projects.json';
 import Error from '../Error';
 import ProjectsDatasSkills from "./ProjectDatasSkills";
+import ProjectDatasLink from "./ProjectsDatasLink";
 // import { useNavigate } from "react-router-dom";
 
 function ShowProjectDatas() {
@@ -56,6 +57,7 @@ function ShowProjectDatas() {
                     <p>Compétences utilisées ici :</p>
                     <ProjectsDatasSkills project={project} />
                 </aside>
+                <ProjectDatasLink link={project.link} />
             </section>
         </main>
     )

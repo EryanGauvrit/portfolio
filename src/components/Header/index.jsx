@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <Link to='/' className='logo'><img src={logo} alt="logo" /></Link>
+      <Link to='/' className='logo' onClick={"#backTop-anchor"}><img src={logo} alt="logo" /></Link>
       <nav>
-        <Link to='/'>Accueil</Link>
+        <Link to='/' onClick={"#backTop-anchor"}>Accueil</Link>
         <div className='nav-point'></div>
-        <Link to='/profil'>Profil</Link>
+        <Link to='/profil' onClick={"#backTop-anchor"}>Profil</Link>
         <div className='nav-point'></div>
-        <Link to='/projects'>Projets</Link>
+        <Link to='/projects' onClick={"#backTop-anchor"}>Projets</Link>
       </nav>
     </header>
   );

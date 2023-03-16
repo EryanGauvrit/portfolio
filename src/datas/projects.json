@@ -78,7 +78,7 @@
             "https://drive.google.com/uc?id=1trotGxHQkOqDxlrL6xDkLi9uANYsItj4"
         ],
         "summary":"Réalisation d'un site e-commerce de vente de canapés",
-        "description":"Conception de la partie front en se concentrant sur l'aspect dynamique avec JavaScript. Utilisation de requête afin d'afficher les articles de ventes, enregistrer et passer la commande client avec choix de couleur et de quantité, et informations du client.",
+        "description":"Conception de la partie front en se concentrant sur l'aspect dynamique avec JavaScript. Afin d'afficher les différents articles depuis l'API, une requête vers celle-ci était nécessaire. Ensuite l'utilisateur peut, sur un ou plusieurs articles, choisir sa couleur et la quantité désirée, puis enregistrer sa commande dans le panier (via le Localstorage). Enfin, il peut valider sa commande et obtenir un numéro de commande lui-même généré par la partie backend.",
         "date":"2022-11-04",
         "duration":"1 mois",
         "client":"OpenClassrooms",
@@ -102,7 +102,7 @@
             "https://drive.google.com/uc?id=190QKpQcCl-NMmC6EEF6z_9Xt9yk5eysE"
         ],
         "summary":"Conception d'un site permettant d'enregistrer sa/ses sauce(s) préférée(s)",
-        "description":"Création de la partie backend du site : gestion des comptes utilisateurs (inscription et connection) puis possibilité de traité les entrées utilisateurs pour afficher, modifier et supprimer une sauce, donc utlisation d'une base de données. Ajout de la fonctionnalité like/dislike.",
+        "description":"Création de la partie backend du site : gestion des comptes utilisateurs (inscription et connection) puis possibilité de traité les entrées utilisateurs pour afficher, modifier et supprimer une sauce, avant d'envoyer les requêtes à la base de données. Puis ajout de la fonctionnalité like/dislike. Le projet était bien axé sur l'aspect sécurité, notamment avec le hashage des mots de passe enregistrés dans la base de données.",
         "date":"2022-11-21",
         "duration":"3 semaines",
         "client":"OpenClassrooms",
@@ -126,7 +126,7 @@
             "https://drive.google.com/uc?id=1iEIjBll2wy2AeIpO6ZnOVswmDqcIY5kI"
         ],
         "summary":"Réalisation de la partie front d'un site de location de biens immobiliers",
-        "description":"Utilisation de la bibliothèque JavaScript React.js, permettant de séparer le projet en différents composants réutilisables. Respect de l'intégration de la maquette au millimètre près",
+        "description":"Utilisation de la bibliothèque JavaScript React.js, permettant de séparer le projet en différents composants réutilisables. Objectif : Respecter l'intégration de la maquette sous Figma au pixel près.",
         "date":"2023-02-04",
         "duration":"3 semaines",
         "client":"OpenClassrooms",
@@ -139,7 +139,7 @@
             "Intégration de maquette",
             "Organisation de l'espace de travail"
         ],
-        "link":""
+        "link":"https://eryangauvrit.github.io/kasa/"
     },
     {
         "id":"cliProjRE",
@@ -151,7 +151,7 @@
             "https://drive.google.com/uc?id=1IkOKJXhreWvMt4dBCdYocQOIOcEAStfS"
         ],
         "summary":"Création d'un site vitrine dans le domaine du développement personnel",
-        "description":"Réalisation d'un site vitrine de A à Z dans le domaine du développement personnel pour un particulier, sous React.js",
+        "description":"Réalisation d'un site vitrine de A à Z dans le domaine du développement personnel pour un particulier. Il a été développé avec la bibliothèque React.js et pour la mise en forme, avec le préprocesseur Sass. Pour ce projet, j'ai dû prendre en compte les différentes fonctionnalités voulues par le client, mais j'ai aussi dû proposer, donner mon avis, sur toute la partie design et sur la manière d'afficher proprement les informations pour attirer le regard du visiteur.",
         "date":"2023-02-11",
         "duration":"1 semaine",
         "client":"Particulier",

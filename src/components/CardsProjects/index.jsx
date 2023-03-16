@@ -7,7 +7,7 @@ function CardsProjects() {
         <section className="card-project-list">
             {
                 projectsDatas.map((project) =>
-                    <Link className="card-project" to={"/projects/" + project.id} key={project.id} >
+                    <Link className="card-project" to={"/projects/" + project.id} key={project.id} onClick={"#backTop-anchor"}>
                         <h2>{project.title}</h2>
                         <div className="cover-bloc">
                             <img src={project.cover} alt={project.title} />
