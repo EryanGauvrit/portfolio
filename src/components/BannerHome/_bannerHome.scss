@@ -9,11 +9,14 @@
     background-color: #B3B3B3;
     background-blend-mode: darken;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     @media (min-width: $phoneScreenSize) {
         height: 320px;   
         margin: 50px 0;
+        gap: 20px;
     }
     & h1 {
         margin-right: 5%;
@@ -31,5 +34,22 @@
                margin-right: 140px;
                letter-spacing: 9px;
         }
+    }
+    & h2 {
+        margin-right: 5%;
+        width: 100%;
+        text-align: end;
+        font-size: 20px;
+        color: $colour-three;
+        text-shadow: 2px 2px $colour-four;
+        font-family: $policeTxt;
+        letter-spacing: 6px;
+        font-weight: 600;
+        opacity: .9;
+        @media (min-width: $phoneScreenSize) {
+            font-size: 30px;
+            margin-right: 140px;
+            letter-spacing: 9px;
+     }
     }
 }

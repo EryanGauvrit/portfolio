@@ -10,7 +10,7 @@ function Profil() {
     return (
         <React.Fragment>
             <ChangeTitlePage
-                titlePage='Portfolio - Profil'
+                titlePage='Portfolio - Mon profil'
             />
             <BackTop />
             <main className="profil-main">

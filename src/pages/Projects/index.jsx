@@ -7,7 +7,7 @@ function Projects() {
     return (
         <main className="card-list-main">
             <ChangeTitlePage
-                titlePage='Portfolio - Projets'
+                titlePage='Portfolio - Mes projets'
             />
             <BackTop />
             <BannerProjects
