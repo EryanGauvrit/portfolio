@@ -164,5 +164,31 @@
             "Exigeances client"
         ],
         "link":""
+    },
+    {
+        "id":"projetPersoMyZoo",
+        "title":"MyZoo",
+        "cover":"https://drive.google.com/uc?id=1mGn5wCImTkcL1NysoH0BZY8hclt1mUPi",
+        "pictures":[
+            "https://drive.google.com/uc?id=1mGn5wCImTkcL1NysoH0BZY8hclt1mUPi",
+            "https://drive.google.com/uc?id=1TkAe6c5iYGbpb2k1DgzxC6olaCo335Eq",
+            "https://drive.google.com/uc?id=11XFDuUv6QvG2HfDzOv6xyMKrKPQd4lL6",
+            "https://drive.google.com/uc?id=1ENUNlezXzPtzy5wR-FumR2GchKwCWyQm"
+        ],
+        "summary":"Conception d'un projet fullstack : une partie client et une partie admin",
+        "description":"Ce projet est composé de deux sites : un pour la partie client, ils peuvent voir afficher les informations sur leurs animaux ainsi que les trier via des filtres selon leur famille et/ou leur continent. Le deuxième site est destiné à l'administartion du premier, c'est-à-dire qu'après s'être connecté au compte administrateur, nous pouvons ajouter, modifier ou encore supprimé un animal ou une famille. Ce projet est tiré d'un cours que j'ai suivi suite à mon envie d'apprendre à faire une partie backend en PHP.",
+        "date":"2023-04-11",
+        "duration":"3 semaines",
+        "client":"Projet personnel",
+        "address":"En ligne",
+        "skills":[
+            "React.js",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ],
+        "link":"https://myzoo.eryan-portfolio.com/"
     }
 ]
