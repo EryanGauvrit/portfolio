@@ -25,6 +25,12 @@ function Home() {
                     pp={<img src={pp} alt="Eryan Gauvrit" />}
                 />
             </section>
+            <aside className="details-goal">
+                <h2>En recherche d'alternance :</h2>
+                <div>
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7059829323771305987" title="Post intégré"></iframe>
+                </div>
+            </aside>
             <SlideShowRecentsProjects />
 
         </main>
