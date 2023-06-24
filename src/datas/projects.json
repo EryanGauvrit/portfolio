@@ -190,5 +190,29 @@
             "MySQL"
         ],
         "link":"https://myzoo.eryan-portfolio.com/"
+    },
+    {
+        "id":"alestdelagrosne",
+        "title":"Alestdelagrosne",
+        "cover":"https://drive.google.com/uc?id=1kobHQCcJ3o6N5_J_o_kAhngimY8GzeNY",
+        "pictures":[
+            "https://drive.google.com/uc?id=1kobHQCcJ3o6N5_J_o_kAhngimY8GzeNY"
+        ],
+        "summary":"Développement d'un site de location de gîtes pour un client",
+        "description":"C'est un site de location de gîtes. L'utilisateur peut simplement voir les gîtes / les activités / les prochains évènements ainsi que la disponibilité et tarifs des gîtes. Une partie administrateur est crée afin de pour modifier les illustrations / activités / caractériques des gîtes.",
+        "date":"2023-06-01",
+        "duration":"En cours de développement",
+        "client":"Projet client",
+        "address":"En ligne",
+        "skills":[
+            "React.js",
+            "Symfony",
+            "PHP",
+            "MySQL",
+            "SASS",
+            "CSS",
+            "HTML"
+        ],
+        "link":"https://alestdelagrosne.eryan-portfolio.com/"
     }
 ]
